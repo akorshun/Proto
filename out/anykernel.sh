@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() {
-kernel.string=Proto8 Kernel
+kernel.string=Stock Kernel
 do.devicecheck=0
 do.modules=0
 do.cleanup=1
@@ -40,7 +40,7 @@ mv /tmp/anykernel/kernel-Image.gz /tmp/anykernel/Image.gz;
 
 ## AnyKernel kernel install
 
-ui_print "Proto8 Kernel is being infused";
+ui_print "Kernel is being infused";
 
 split_boot;
 
